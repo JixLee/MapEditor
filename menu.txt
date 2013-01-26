@@ -1,0 +1,27 @@
+This is the Menu on how to use the map editor.
+The keys are too many to be listed in the UI so I decided to write it down here
+
+Q: create obstacle
+W: create spawn point ( one spawn point will create one enemy )
+E: create flame thrower (default direction is north)
+
+X: export the map into XML ( first map will export to map_0, second map_1 and on and on, the number automatically increase )
+Z: clear the whole map ( becarefull, no revert at all )
+
+Left click on the blocks to select it.
+Hold and drag to move the blocks around.
+
+When a block is selected it is shown in green color.
+
+all changing of size is using unviersal number, its standard.
+
++: increase width and height of the block
+-: decrase width and height of the block
+U: increase width of the block
+I: decrease width of the block
+J: increase height of the block
+K: decrease height of the block
+P: change the direction of the flame thrower ( it rotates clock wise )
+
+NOTE:
+There is no collision detection in the map editor, so when you are making the map, please do NOT overlap blocks.
